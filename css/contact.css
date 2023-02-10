@@ -4,14 +4,12 @@
 }
 
 .form {
-    display: flex;
-    flex-direction: column;
-    /* box-shadow: 0 0 30px rgba(0, 0, 0, 0.6); */
-    /* background: red; */
     max-width: 300px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2rem;
     margin-bottom: 6rem;
+    text-align: center;
 }
 
 .form-input,
