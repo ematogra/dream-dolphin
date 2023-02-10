@@ -1,0 +1,87 @@
+table, th, td {
+    border-collapse: collapse;
+    border: 3px solid green;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel {
+    position: relative;
+    height: 800px;
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+
+.compilation-info {
+    margin-bottom: 6rem;
+}
+
+/* img */
+.carousel__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel__track-container {
+    /* background: red; */
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+/* ul */
+.carousel__track { 
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    /* added after the fact, to help with the js moveSlide func */
+    position: relative;
+    height: 100%;
+    transition: transform 500ms ease-in;
+}
+
+.carousel__slide {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/* buttons */
+.carousel__button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.carousel__button--left {
+    left: -40px;
+}
+
+.carousel__button--right {
+    right: -40px;
+}
+
+.carousel__button img {
+    width: 20px;
+}
+
+.is-hidden {
+    display: none;
+}
+
+/* 
+
+References:
+
+Powell, K. (2019) How to code a carousel with HTML, CSS and JavaScript - From Scratch (Part 1), YouTube. YouTube. Available at: https://www.youtube.com/watch?v=VYsVOamdB0g (Accessed: February 9, 2023). 
+
+
+
+
+*/

@@ -1,0 +1,67 @@
+
+body {
+    /* -webkit-font-smoothing: antialiased; */
+    /* background-image: url('https://images.nomorewords.net//releases/r7587_0_or.jpg'); */
+    /* background-image: url('https://images.nomorewords.net//releases/r7587_2_or.jpg'); */
+    /* background-image: url('https://images.nomorewords.net//releases/r7587_3_or.jpg'); */
+    /* background-image: url('https://images.nomorewords.net//releases/r7587_4_or.jpg'); */
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#releases-wrapper {
+    /* display: grid; */
+    /* grid-template-columns: repeat(2, auto); */
+    /* border: 3px solid black; */
+    position: relative;
+    margin: 0 auto;
+    width: 60%;
+    /* row-gap: 0.3vw;
+    column-gap: 0.3vw; */
+}
+
+.title-year {
+    text-align: center;
+    font-weight: bold;
+    margin: 2vh;
+}
+
+.album {
+    /* border: 0.1vw solid red; */
+    height: 100%;
+    padding-top: 3vh;
+    position: relative;
+    /* border-collapse: collapse;
+    overflow: hidden; */
+    /* box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.3); */
+    /* display: flex; */
+}
+
+.album-img {
+    width: 300px;
+    /* height: 300px; */
+    border: 1px solid black;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.3);
+}
+
+.tracklist {
+    width: 28vw;
+    height: 100%;
+}
+
+.title {
+    font-size: 100%;
+}
+
+.image-tracklist-container {
+    display:flex;
+    justify-content: center;
+    margin-top: 2vh;
+    margin-left: 4vw;
+    /* align-items: center; */
+    vertical-align: middle;
+    /* position: absolute;
+    top: 10%; */
+}
