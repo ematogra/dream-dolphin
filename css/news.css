@@ -7,8 +7,8 @@ table, th, td {
 
 .carousel {
     position: relative;
-    height: 800px;
-    width: 800px;
+    height: 48rem;
+    width: 48rem;
     margin: 0 auto;
     margin-bottom: 6rem;
 }

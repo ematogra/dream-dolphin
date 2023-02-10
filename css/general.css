@@ -35,7 +35,7 @@ body {
 
 .header-img {
     width: 13px;
-    margin-right: 20px;
+    margin-right: 1.5rem;
 }
 
 .header {
@@ -100,4 +100,31 @@ body {
 
 .navbar-li a:hover {
     font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar-li a {
+    margin-right: 0.3rem;
+    font-size: 0.7rem;
+  }
+
+  .logo {
+    margin-left: 0.5rem;
+    font-size: 1.1rem;
+    width: 300px;
+  }
+
+  .wrapper {
+    width: 70%;
+  }
+
+  .header-img {
+    margin-right: 0.2rem;
+    width: 0.7rem;
+  }
+
+  .carousel {
+    height: 15rem;
+    width: 15rem;
+  }
 }
