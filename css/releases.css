@@ -1,3 +1,7 @@
+.releases-info {
+    text-align: center;
+}
+
 
 #releases-wrapper {
     /* display: grid; */
@@ -53,3 +57,27 @@
     /* position: absolute;
     top: 10%; */
 }
+
+@media only screen and (max-width: 600px) {
+    .album-img {
+        width: 100%;
+    }
+  
+    .image-tracklist-container {
+        margin-left: 0;
+        flex-direction: column;
+    }
+
+    .tracklist {
+        width: 100%;
+    }
+
+    .tracklist li {
+        font-size: 0.7rem;
+    }
+
+    .image {
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }

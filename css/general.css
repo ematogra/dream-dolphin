@@ -103,6 +103,10 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  p {
+    font-size: 0.8rem;
+  }
+
   .navbar-li a {
     margin-right: 0.3rem;
     font-size: 0.7rem;
@@ -123,8 +127,5 @@ body {
     width: 0.7rem;
   }
 
-  .carousel {
-    height: 15rem;
-    width: 15rem;
-  }
+
 }

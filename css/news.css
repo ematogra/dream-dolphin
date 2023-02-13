@@ -1,8 +1,12 @@
 table, th, td {
-    border-collapse: collapse;
-    border: 3px solid green;
+    border-collapse: separate;
     margin-left: auto;
     margin-right: auto;
+    border-spacing: 1em 0;
+}
+
+.table {
+    margin-bottom: 6rem;
 }
 
 .carousel {
@@ -74,6 +78,26 @@ table, th, td {
 .is-hidden {
     display: none;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .carousel {
+      height: 17rem;
+      width: 17rem;
+      margin-bottom: 3rem;
+    }
+
+    table, th, td {
+        font-size: 0.7rem;
+        border-spacing: 1em 0;
+    }
+
+    .table {
+        margin-bottom: 3rem;
+    }
+  }
 
 /* 
 
