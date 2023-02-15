@@ -1,18 +1,20 @@
+
+// query selector for carousel slideshow
 const track = document.querySelector('.carousel__track')
 const slides = Array.from(track.children)
 const nextButton = document.querySelector('.carousel__button--right')
 const prevButton = document.querySelector('.carousel__button--left')
-
 const slideWidth = slides[0].getBoundingClientRect().width
 
 // arrange slides next to each other
-
 const setSlidePos = (slide, i) => {
     slide.style.left = `${(slideWidth*i)}px`
 }
 
+// set slide position for each image, so they're in a row
 slides.forEach(setSlidePos)
 
+// func to move slide, depending upon whether user clicks left or right button
 const moveSlide = (track, currentSlide, targetSlide) => {
     const amountToMove = targetSlide.style.left
     // move to the next slide
@@ -23,6 +25,7 @@ const moveSlide = (track, currentSlide, targetSlide) => {
     targetSlide.classList.add('current-slide')
 }
 
+// func to hide arrows, depending upon whether user is at start or end of image slideshow
 const hideShowArrows = (slides, prevButton, nextButton, targetIndex) => {
     if (targetIndex === 0) {
         prevButton.classList.add('is-hidden')
